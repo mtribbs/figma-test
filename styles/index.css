@@ -89,5 +89,5 @@ li {
     color: #FFFFFF;
 }
 section {
-    display: inline-block;
+    display: inline-block; /*not working*/
 }

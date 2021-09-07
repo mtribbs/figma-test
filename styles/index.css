@@ -1,26 +1,26 @@
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bold; /*copied from figma but it doesn't look right*/
     font-size: 30px;
     line-height: 48px;
     /* or 160% */
     letter-spacing: -0.02em;
     color: #0A1B32;
-    margin-top: 307x;
+    margin-top: 37x;
     margin-left: 80px;
-    display: inline-block;
+    margin-right: 58px;
 }
 .logo-dot {
     color: #FC569A;
 }
-.nav-bar {
-    float:right;
+
+h3, nav{
+    display: inline-block;
 }
 .nav-list, .sign-list {
     list-style-type: none;
     display: inline-block;
-    margin-top: 48px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -32,20 +32,29 @@
     color: #1B0A42;
 }
 .nav-list {
-    margin-left: 273px;
+    word-spacing: 38px;
+}
+.sign-list {
+    margin-left: 352px;
+    /*not the margin in figma (it says double but that didn't work*/
 }
 .sign-button {
-    background: #FC569A;
-    border-radius: 6px;
-    border: none;
     width: 120px;
     height: 60px;
+    margin-left: 40px;
+    background-color: #FC569A;
+    border-radius: 6px;
+    border: none;
     color: #FFFFFF;
 }
 li {
     display: inline-block;
 }
-.headline {
+.main-title {
+    max-width: 495px;
+    width: 100%;
+    margin-top: 203px;
+    margin-left: 200px;
     font-family: 'Ramaraja', serif;
     font-style: normal;
     font-weight: normal;
@@ -54,8 +63,28 @@ li {
     /* or 106% */
     letter-spacing: 00.02em;
     color: #1B0A42;
+}
+
+.main-info {
+    max-width: 582px;
+    width: 100%;
+    margin-top: 10px;
     margin-left: 200px;
-    margin-top: 281px;
-    width: 495px;
-    height: 152px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+.learn-button {
+    width: 152px;
+    height: 64px;
+    margin-left: 200px;
+    background-color: #FC569A;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
 }

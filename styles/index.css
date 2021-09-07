@@ -1,0 +1,61 @@
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    /* or 160% */
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+    margin-top: 307x;
+    margin-left: 80px;
+    display: inline-block;
+}
+.logo-dot {
+    color: #FC569A;
+}
+.nav-bar {
+    float:right;
+}
+.nav-list, .sign-list {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+.nav-list {
+    margin-left: 273px;
+}
+.sign-button {
+    background: #FC569A;
+    border-radius: 6px;
+    border: none;
+    width: 120px;
+    height: 60px;
+    color: #FFFFFF;
+}
+li {
+    display: inline-block;
+}
+.headline {
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 00.02em;
+    color: #1B0A42;
+    margin-left: 200px;
+    margin-top: 281px;
+    width: 495px;
+    height: 152px;
+}

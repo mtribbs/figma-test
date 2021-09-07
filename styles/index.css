@@ -88,3 +88,6 @@ li {
     border: none;
     color: #FFFFFF;
 }
+section {
+    display: inline-block;
+}
